@@ -85,7 +85,7 @@ table test_아마존
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Users\havef\OneDrive - onionbi.co.kr\_ONIONBI\07 Git_Repository\sampleProject\AMZN_data_1999_2022.csv"),[Delimiter=",", Columns=7, Encoding=949, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents("C:\Users\havef\OneDrive - onionbi.co.kr\_ONIONBI\07 Git_Repository\pbi2\AMZN_data_1999_2022.csv"),[Delimiter=",", Columns=7, Encoding=949, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Date", type date}, {"Open", type number}, {"High", type number}, {"Low", type number}, {"Close", type number}, {"Adj Close", type number}, {"Volume", Int64.Type}})
 				in

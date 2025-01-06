@@ -1,0 +1,5 @@
+relationship 85f11082-8161-4d4d-b8f2-7b0321b47364
+	joinOnDateBehavior: datePartOnly
+	fromColumn: test_아마존.Date
+	toColumn: LocalDateTable_4d497cc5-063a-426a-91f5-2b74d5780a8b.Date
+

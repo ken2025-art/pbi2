@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../sampleFile_아마존.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

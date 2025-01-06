@@ -74,7 +74,7 @@ table test_아마존
 
 	column Volume
 		dataType: int64
-		formatString: #,0
+		formatString: 0
 		lineageTag: e0eb47e8-c0e4-474c-8635-2a0f445463fc
 		summarizeBy: sum
 		sourceColumn: Volume

@@ -1,6 +1,11 @@
 table test_아마존
 	lineageTag: 593c8634-73de-4a76-ac5e-baa66aaa7379
 
+	measure avgPrice = AVERAGE('test_아마존'[Close])
+		lineageTag: c985b634-4b73-4b23-83af-e981321ffe18
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Date
 		dataType: dateTime
 		formatString: Long Date

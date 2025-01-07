@@ -20,5 +20,3 @@ ref table LocalDateTable_4d497cc5-063a-426a-91f5-2b74d5780a8b
 
 ref cultureInfo en-US
 
-relationship test_아마존[KeyColumn] to DateTableTemplate_0b7a7e01-9eea-457a-a6b4-91820d41a564[KeyColumn] cardinality many-to-one
-relationship test_아마존[KeyColumn] to LocalDateTable_4d497cc5-063a-426a-91f5-2b74d5780a8b[KeyColumn] cardinality many-to-one
